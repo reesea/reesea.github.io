@@ -7,7 +7,7 @@ The source code for this site is hosted [here](https://github.com/reesea/reesea.
 
 ### How to Run Locally
 1. Clone this repository
-2. Open index.html in your web browser
+2. Open `index.html` in your web browser
 
 ### Credits
 This site was built with the Jekyll theme Minima.
