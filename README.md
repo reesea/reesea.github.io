@@ -15,4 +15,4 @@ This site was built with the Jekyll theme Minima.
 ### License
 This project is licensed under the MIT License - see the [LICENSE](http://opensource.org/licenses/MIT) file for details.
 
-[reesea.github.io](reesea.github.io)
+[reesea.github.io](http://reesea.github.io)
