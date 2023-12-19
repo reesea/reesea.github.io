@@ -1,6 +1,6 @@
 The source code for this site is hosted [here](https://github.com/reesea/reesea.github.io).
 
-### Technologies Used
+### Technologies Used 
 * HTML
 * CSS
 * JavaScript
