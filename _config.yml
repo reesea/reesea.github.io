@@ -34,6 +34,11 @@ sidebar_notes_link: "/notes/"
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
+
+include:
+  - favicon.ico
+  - favicon.png
+
 exclude:
    - .sass-cache/
    - .jekyll-cache/
