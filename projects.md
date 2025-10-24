@@ -2,6 +2,7 @@
 layout: page
 title: Applied Cybersecurity Projects
 description: "Hands-on cybersecurity and information assurance projects demonstrating applied use of security frameworks, vulnerability assessment tools, and secure system design."
+permalink: /projects/
 ---
 
 These projects combine hands-on security tool usage with research-based documentation.

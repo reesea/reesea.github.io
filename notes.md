@@ -2,6 +2,7 @@
 layout: page
 title: Notes
 description: "Reference notes and study materials from coursework, labs, and cybersecurity readings."
+permalink: /notes/
 ---
 
 Brief reference notes from ongoing cybersecurity coursework and applied information assurance research.  
