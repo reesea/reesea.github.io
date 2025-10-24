@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-[← Back to Home]({{ site.baseurl }}/)
-
 I focus on applied information assurance, exploring how cybersecurity frameworks, risk management methodologies, and cryptographic systems contribute to secure system design.  
 
 My recent work analyzes and documents standards such as the NIST Cybersecurity Framework (CSF) 2.0, SP 800-63 Digital Identity Guidelines, and hybrid cryptographic protocols that combine symmetric and asymmetric encryption.  
@@ -15,5 +13,3 @@ This research and implementation-focused writing is being developed through grad
 ---
 **Related Work:**  
 View current topics under [Applied Information Assurance](/ia/)
-
-[← Back to Home]({{ site.baseurl }}/)

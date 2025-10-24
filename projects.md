@@ -5,8 +5,6 @@ description: "Hands-on cybersecurity and information assurance projects demonstr
 permalink: /projects/
 ---
 
-[← Back to Home]({{ site.baseurl }}/)
-
 These projects combine hands-on security tool usage with research-based documentation.
 Each activity was performed in a controlled environment to evaluate security mechanisms, analyze results, and connect technical findings to established cybersecurity frameworks.
 
@@ -68,5 +66,3 @@ Produced comparative tables of encryption methods, key exchange algorithms, and 
 Implemented symmetric/asymmetric encryption for secure email exchange using GPG and Thunderbird.  
 Documented key generation, signing, and validation workflows, emphasizing usability and certificate trust models.  
 [View Documentation](#)
-
-[← Back to Home]({{ site.baseurl }}/)

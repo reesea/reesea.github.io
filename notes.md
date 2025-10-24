@@ -5,8 +5,6 @@ description: "Reference notes and study materials from coursework, labs, and cyb
 permalink: /notes/
 ---
 
-[← Back to Home]({{ site.baseurl }}/)
-
 Brief reference notes from ongoing cybersecurity coursework and applied information assurance research.  
 These entries capture key tools, frameworks, and concepts used across network security, cryptography, and risk management studies.
 
@@ -95,5 +93,3 @@ Risk = Likelihood × Impact
 - *Applied Cryptography* — Bruce Schneier
 - *Network Security Essentials* — William Stallings
 - *The Web Application Hacker’s Handbook* — Stuttard & Pinto
-
-[← Back to Home]({{ site.baseurl }}/)
