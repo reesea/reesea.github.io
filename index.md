@@ -25,6 +25,6 @@ Projects demonstrate the responsible use of tools such as OpenVAS (Greenbone), N
 |:--------|:---------|:----|
 | **OWASP Top 10 Application Security Overview** | [View Online](/ia/owasp-top10/) | [Download]({{ '/assets/docs/owasp-top10-overview.pdf' | relative_url }}) |
 | **OpenVAS Network Vulnerability Assessment** | [View Online](/ia/openvas-network-assessment/) | [Download]({{ '/assets/docs/openvas-network-assessment.pdf' | relative_url }}) |
-| **Nmap Exploration & Service Enumeration** | [Read Summary](/ia/nmap-exploration/) | [Download PDF]({{ '/assets/docs/nmap-exploration-results.pdf' | relative_url }}) |
+| **Nmap Exploration & Service Enumeration** | [Read Summary](/ia/nmap-exploration/) | [Download]({{ '/assets/docs/nmap-exploration-results.pdf' | relative_url }}) |
 
 *[View all Projects →](/projects/)*

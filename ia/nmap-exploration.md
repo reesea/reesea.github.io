@@ -14,7 +14,7 @@ description: "Sanitized results and methodology for controlled Nmap host discove
 
 ## 1. Executive Summary
 
-This document summarizes controlled network reconnaissance performed using **Nmap** in an isolated lab environment. The objective was to identify active hosts, open ports, and service versions; demonstrate safe timing templates and NSE script usage; and produce actionable remediation guidance. All outputs are **sanitized** for publication.
+This document summarizes controlled network reconnaissance performed using Nmap in an isolated lab environment. The objective was to identify active hosts, open ports, and service versions; demonstrate safe timing templates and NSE script usage; and produce actionable remediation guidance. All outputs are sanitized for publication.
 
 > **Scope:** Lab subnet `10.200.x.0/24` and Juice Shop test host `10.200.x.42` (sanitized). No external or production systems were scanned.
 
@@ -62,8 +62,8 @@ nmap -p 443,3000 --script ssl-enum-ciphers -T3 -oN reports/juice-ssl 127.0.0.1
 
 ## 3. Key Findings (Sanitized)
 | **Severity** | **Finding** | **Evidence (sanitized)** |	**Recommendation** |  
-|:-------------|:------------|:-------------------------|:----------------|
-|Medium | HTTP service running on port 3000 (Juice Shop) |	`nmap -sV` shows open port 3000, HTTP response headers present |	Use HTTPS for public-facing services; if production, ensure TLS with strong ciphers |  
+|:-------------|:------------|:-------------------------|:----------------|  
+|Medium | HTTP service running on port 3000 (Juice Shop) | `nmap -sV` shows open port 3000, HTTP response headers present | Use HTTPS for public-facing services; if production, ensure TLS with strong ciphers |  
 | Low |	Service/version exposure (banners) | `Server: node` / `X-Powered-By` headers present | Remove/obfuscate server banners; minimize information leakage |  
 | Low |	Missing some security headers |	`X-Frame-Options`, `Content-Security-Policy` absent or minimal | Implement HSTS, CSP, X-Frame-Options headers as applicable  
 
@@ -101,7 +101,7 @@ Map each finding to NIST CSF:
 ## 6. Recommendations & Next Steps  
 
 **1.** Run authenticated scans (OpenVAS or credentialed Nmap NSE scripts) only with explicit authorization for deeper checks.  
-**2.** Remove or sanitize server banners and X-Powered-By headers where practical.
+**2.** Remove or sanitize server banners and X-Powered-By headers where practical.  
 **3.** Enforce HTTPS and disable legacy TLS ciphers.  
 **4.** Schedule monthly scans and integrate results into a vulnerability tracker.  
 **5.** For production, configure alerting in a SIEM and prioritize findings by CVSS.  
