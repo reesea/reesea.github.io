@@ -41,7 +41,7 @@ Created baseline reports showing vulnerability severity distribution and remedia
 Performed controlled Nmap scans to identify active hosts, open ports, and service versions across segmented lab networks.  
 Documented findings, created scan profiles, and explained the impact of timing templates and NSE scripts.  
 **Focus:** Ethical network reconnaissance and host discovery methodologies.  
-[Read Summary](ia/nmap-exploration/)&nbsp;|&nbsp;[Download]({{ '/assets/docs/nmap-exploration-results.pdf' | relative_url }})
+[Read Summary](/ia/nmap-exploration/)&nbsp;|&nbsp;[Download]({{ '/assets/docs/nmap-exploration-results.pdf' | relative_url }})
 
 ---
 
