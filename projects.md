@@ -33,7 +33,7 @@ Developed mitigation guidance aligned with NIST SP 800-53 and ISO 27034.
 Configured and operated Greenbone Security Assistant for internal and DMZ network scans.  
 Created baseline reports showing vulnerability severity distribution and remediation prioritization.  
 **Focus:** Network mapping, scan configuration tuning, and interpretation of CVSS metrics.  
-[View Summary](#)
+[View Report]({{ '/assets/docs/openvas-network-assessment.pdf' | relative_url }})
 
 ---
 
