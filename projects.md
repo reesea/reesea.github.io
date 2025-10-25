@@ -23,7 +23,7 @@ Included creating an organizational *Current vs. Target Profile* and performing 
 Documented and tested the OWASP Top 10 2021 vulnerabilities using controlled lab examples.  
 Developed mitigation guidance aligned with NIST SP 800-53 and ISO 27034.  
 **Tools:** Burp Suite (Community), DVWA, OWASP Juice Shop  
-[View Report](#)
+[View Report]({{ '/assets/docs/owasp-top10-overview.pdf' | relative_url }})
 
 ---
 
