@@ -1,6 +1,5 @@
 ---
 layout: page
-title: "Network and Vulnerability Assessment – OpenVAS Web Server Scan"
 date: 2025-09-29
 description: "An applied information assurance report summarizing findings from a Greenbone OpenVAS vulnerability scan performed on a web server within a controlled network environment."
 permalink: /ia/openvas-network-assessment/
@@ -118,6 +117,6 @@ This assessment demonstrates how automated vulnerability management directly sup
 <p align="center">
   <a href="{{ '/assets/docs/openvas-network-assessment.pdf' | relative_url }}" target="_blank"
      style="display:inline-block;padding:0.6rem 1rem;background:#268bd2;color:#fff;text-decoration:none;border-radius:6px;">
-     🔗 Download Full Report (PDF)
+     Download Full Report (PDF)
   </a>
 </p>

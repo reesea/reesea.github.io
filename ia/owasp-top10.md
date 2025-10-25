@@ -1,6 +1,5 @@
 ---
 layout: page
-title: "OWASP Top 10 Application Security Overview"
 date: 2025-10-24
 description: "An applied information assurance report connecting the OWASP Top 10 web security risks with NIST Cybersecurity Framework (CSF) functions."
 permalink: /ia/owasp-top10/
@@ -29,16 +28,16 @@ It serves as a living benchmark for secure development and auditing activities.
 
 | **ID** | **Risk Category** | **Description** |
 |:------:|:------------------|:----------------|
-| **A01: Broken Access Control** | Authorization enforcement failures enabling unauthorized actions or data access. |
-| **A02: Cryptographic Failures** | Misuse or absence of encryption, leading to exposure of sensitive data. |
-| **A03: Injection** | Unsanitized input passed to interpreters (e.g., SQL, OS commands). |
-| **A04: Insecure Design** | Fundamental flaws in architecture or threat modeling. |
-| **A05: Security Misconfiguration** | Default accounts, open S3 buckets, or verbose error messages. |
-| **A06: Vulnerable & Outdated Components** | Use of obsolete or unpatched software dependencies. |
-| **A07: Identification & Authentication Failures** | Weak credentials or poor session management. |
-| **A08: Software & Data Integrity Failures** | Unverified code updates or compromised CI/CD pipelines. |
-| **A09: Security Logging & Monitoring Failures** | Insufficient detection and response visibility. |
-| **A10: Server-Side Request Forgery (SSRF)** | Improperly validated external resource requests. |
+| **A01** | Broken Access Control | Authorization enforcement failures enabling unauthorized actions or data access. |
+| **A02** | Cryptographic Failures | Misuse or absence of encryption, leading to exposure of sensitive data. |
+| **A03** | Injection | Unsanitized input passed to interpreters (e.g., SQL, OS commands). |
+| **A04** | Insecure Design | Fundamental flaws in architecture or threat modeling. |
+| **A05** | Security Misconfiguration | Default accounts, open S3 buckets, or verbose error messages. |
+| **A06** | Vulnerable & Outdated Components | Use of obsolete or unpatched software dependencies. |
+| **A07** | Identification & Authentication Failures | Weak credentials or poor session management. |
+| **A08** | Software & Data Integrity Failures | Unverified code updates or compromised CI/CD pipelines. |
+| **A09** | Security Logging & Monitoring Failures | Insufficient detection and response visibility. |
+| **A10** | Server-Side Request Forgery (SSRF) | Improperly validated external resource requests. |
 
 ---
 
@@ -98,6 +97,6 @@ For readability when exporting to PDF, add your organization or portfolio brandi
 
 <p align="center">
   <a href="{{ '/assets/docs/owasp-top10-overview.pdf' | relative_url }}" target="_blank" style="display:inline-block;padding:0.6rem 1rem;background:#268bd2;color:#fff;text-decoration:none;border-radius:6px;">
-    🔗 Download PDF Report
+    Download PDF Report
   </a>
 </p>
