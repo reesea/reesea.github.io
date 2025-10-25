@@ -4,6 +4,7 @@ title: "Applying the NIST Cybersecurity Framework (CSF) to FAA and Boeing Certif
 date: 2025-09-17
 categories: [Information Assurance, Case Studies]
 tags: [Aviation, Risk Management, NIST CSF, Safety Engineering, Certification]
+permalink: /ia/aviation-csf-application/
 description: "A case study on how the FAA and Boeing could optimize certification processes using the NIST Cybersecurity Framework to balance safety, cost, and risk."
 comments: false
 ---

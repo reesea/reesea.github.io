@@ -4,6 +4,7 @@ title: "Hybrid Cryptographic Protocols Beyond SSL/TLS"
 date: 2025-10-19
 categories: [Information Assurance, Cryptography]
 tags: [Hybrid Cryptography, SSH, IPsec, PGP, Signal, NIST]
+permalink: /ia/hybrid-crypto-protocols/
 description: "An overview of network protocols that combine symmetric and asymmetric cryptography to secure communications, extending beyond the common SSL/TLS model."
 comments: false
 ---

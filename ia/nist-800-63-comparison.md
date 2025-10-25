@@ -4,6 +4,7 @@ title: "Comparing NIST SP 800-63-2 and SP 800-63-3: Evolving Assurance Levels fo
 date: 2025-09-27
 categories: [Information Assurance, Digital Identity]
 tags: [NIST SP 800-63, Assurance Levels, Digital Identity, Authentication, IAL AAL FAL]
+permalink: /ia/nist-800-63-comparison/
 description: "An analysis of how NIST updated the Electronic Authentication Guideline SP 800-63-2 into the SP 800-63-3 suite, introducing separate assurance levels for identity, authentication, and federation to improve digital identity evaluation."
 comments: false
 ---

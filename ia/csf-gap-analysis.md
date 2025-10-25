@@ -4,6 +4,7 @@ title: "Figure 3 of the NIST Cybersecurity Framework (CSF) 2.0: Creating and Usi
 date: 2025-09-13
 categories: [Information Assurance, NIST CSF]
 tags: [CSF 2.0, Gap Analysis, Organizational Profile, Risk Management]
+permalink: /ia/csf-gap-analysis/
 description: "A breakdown of Figure 3 from NIST CSF 2.0, explaining the five steps for creating and using an Organizational Profile to guide cybersecurity gap analysis."
 comments: false
 ---

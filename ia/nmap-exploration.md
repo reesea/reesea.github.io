@@ -61,11 +61,11 @@ nmap -p 443,3000 --script ssl-enum-ciphers -T3 -oN reports/juice-ssl 127.0.0.1
 
 ## 3. Key Findings (Sanitized)  
 
-| **Severity** | **Finding** | **Evidence (sanitized)** |	**Recommendation** |  
-|:-------------|:------------|:-------------------------|:----------------|  
-|Medium | HTTP service running on port 3000 (Juice Shop) | `nmap -sV` shows open port 3000, HTTP response headers present | Use HTTPS for public-facing services; if production, ensure TLS with strong ciphers |  
-| Low |	Service/version exposure (banners) | `Server: node` / `X-Powered-By` headers present | Remove/obfuscate server banners; minimize information leakage |  
-| Low |	Missing some security headers |	`X-Frame-Options`, `Content-Security-Policy` absent or minimal | Implement HSTS, CSP, X-Frame-Options headers as applicable |  
+| **Severity** | **Finding** | **Evidence (sanitized)** |	**Recommendation** |
+|:-------------|:------------|:-------------------------|:---------------------|
+|Medium | HTTP service running on port 3000 (Juice Shop) | `nmap -sV` shows open port 3000, HTTP response headers present | Use HTTPS for public-facing services; if production, ensure TLS with strong ciphers |
+| Low |	Service/version exposure (banners) | `Server: node` / `X-Powered-By` headers present | Remove/obfuscate server banners; minimize information leakage |
+| Low |	Missing some security headers |	`X-Frame-Options`, `Content-Security-Policy` absent or minimal | Implement HSTS, CSP, X-Frame-Options headers as applicable |
 
 > These findings are expected for an intentionally vulnerable test application (OWASP Juice Shop). For production systems, treat medium/above findings as remediation priorities.  
 
