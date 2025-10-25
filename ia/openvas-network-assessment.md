@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: post
 title: "Network and Vulnerability Assessment – OpenVAS Web Server Scan"
 date: 2025-09-29
 description: "An applied information assurance report summarizing findings from a Greenbone OpenVAS vulnerability scan performed on a web server within a controlled network environment."
+comments: false
 ---
 
 # **Network and Vulnerability Assessment – OpenVAS Web Server Scan**

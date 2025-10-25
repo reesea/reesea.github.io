@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: post
 title: "OWASP Top 10 Application Security Overview"
 date: 2025-10-24
 description: "An applied information assurance report connecting the OWASP Top 10 web security risks with NIST Cybersecurity Framework (CSF) functions."
+comments: false
 ---
 
 # **OWASP Top 10 Application Security Overview**
