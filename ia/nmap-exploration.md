@@ -6,7 +6,6 @@ permalink: /ia/nmap-exploration/
 description: "Sanitized results and methodology for controlled Nmap host discovery and service enumeration in a lab environment."
 ---
 
-# **Nmap Exploration & Service Enumeration**
 *Prepared for Applied Information Assurance Projects*  
 *Date: October 2025*
 
@@ -60,12 +59,13 @@ nmap -p 443,3000 --script ssl-enum-ciphers -T3 -oN reports/juice-ssl 127.0.0.1
 **NSE scripts**  
 - Use targeted NSE scripts (e.g., http-headers, http-title, ssl-enum-ciphers) rather than broad --script vuln unless authorized; the former are largely non-destructive and yield useful metadata.
 
-## 3. Key Findings (Sanitized)
+## 3. Key Findings (Sanitized)  
+
 | **Severity** | **Finding** | **Evidence (sanitized)** |	**Recommendation** |  
 |:-------------|:------------|:-------------------------|:----------------|  
 |Medium | HTTP service running on port 3000 (Juice Shop) | `nmap -sV` shows open port 3000, HTTP response headers present | Use HTTPS for public-facing services; if production, ensure TLS with strong ciphers |  
 | Low |	Service/version exposure (banners) | `Server: node` / `X-Powered-By` headers present | Remove/obfuscate server banners; minimize information leakage |  
-| Low |	Missing some security headers |	`X-Frame-Options`, `Content-Security-Policy` absent or minimal | Implement HSTS, CSP, X-Frame-Options headers as applicable  
+| Low |	Missing some security headers |	`X-Frame-Options`, `Content-Security-Policy` absent or minimal | Implement HSTS, CSP, X-Frame-Options headers as applicable |  
 
 > These findings are expected for an intentionally vulnerable test application (OWASP Juice Shop). For production systems, treat medium/above findings as remediation priorities.  
 
