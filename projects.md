@@ -23,7 +23,7 @@ Included creating an organizational *Current vs. Target Profile* and performing 
 Documented and tested the OWASP Top 10 2021 vulnerabilities using controlled lab examples.  
 Developed mitigation guidance aligned with NIST SP 800-53 and ISO 27034.  
 **Tools:** Burp Suite (Community), DVWA, OWASP Juice Shop  
-[Read Summary](/ia/owasp-top10/)&nbsp;|&nbsp;[Download]({{ '/assets/docs/owasp-top10-overview.pdf' | relative_url }})
+[Read Summary](/ia/owasp-top10/)
 
 ---
 
@@ -33,7 +33,7 @@ Developed mitigation guidance aligned with NIST SP 800-53 and ISO 27034.
 Configured and operated Greenbone Security Assistant for internal and DMZ network scans.  
 Created baseline reports showing vulnerability severity distribution and remediation prioritization.  
 **Focus:** Network mapping, scan configuration tuning, and interpretation of CVSS metrics.  
-[Read Summary](/ia/openvas-network-assessment/)&nbsp;|&nbsp;[Download]({{ '/assets/docs/openvas-network-assessment.pdf' | relative_url }})
+[Read Summary](/ia/openvas-network-assessment/)
 
 ---
 

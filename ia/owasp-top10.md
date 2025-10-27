@@ -5,6 +5,7 @@ date: 2025-10-24
 description: "An applied information assurance report connecting the OWASP Top 10 web security risks with NIST Cybersecurity Framework (CSF) functions."
 permalink: /ia/owasp-top10/
 comments: false
+<!-- pandoc: ignore-html -->
 ---
 
 *Prepared for Applied Information Assurance Projects*  
@@ -14,8 +15,8 @@ comments: false
 
 ## **1. Executive Summary**
 
-This report provides an applied overview of the **OWASP Top 10 (2021 Edition)**—a globally recognized awareness document for web application security.  
-It identifies the most critical risks impacting software assurance and maps them to the **NIST Cybersecurity Framework (CSF) 2.0** to demonstrate how developers and organizations can align vulnerability management with governance and risk-based controls.
+This report provides an applied overview of the OWASP Top 10 (2021 Edition) a globally recognized awareness document for web application security.  
+It identifies the most critical risks impacting software assurance and maps them to the NIST Cybersecurity Framework (CSF) 2.0 to demonstrate how developers and organizations can align vulnerability management with governance and risk-based controls.
 
 > **Objective:** To bridge technical security testing with information assurance practices, emphasizing prevention, detection, and response maturity.
 
@@ -43,7 +44,7 @@ It serves as a living benchmark for secure development and auditing activities.
 
 ## **3. Mapping OWASP Risks to NIST CSF Functions**
 
-This alignment highlights how OWASP technical vulnerabilities correlate with the **Identify, Protect, Detect, Respond, and Recover** functions of the NIST Cybersecurity Framework.
+This alignment highlights how OWASP technical vulnerabilities correlate with the Identify, Protect, Detect, Respond, and Recover functions of the NIST Cybersecurity Framework.
 
 | **NIST CSF Function** | **Example OWASP Categories** | **Focus Area** |
 |:----------------------|:-----------------------------|:----------------|
@@ -71,10 +72,10 @@ This alignment highlights how OWASP technical vulnerabilities correlate with the
 
 ## **5. Key Takeaways**
 
-- The OWASP Top 10 should be used as a **baseline** for security testing and code review.  
-- Each risk maps directly to **CSF categories**, allowing for enterprise-level risk reporting.  
+- The OWASP Top 10 should be used as a baseline for security testing and code review.  
+- Each risk maps directly to CSF categories, allowing for enterprise-level risk reporting.  
 - Continuous training and vulnerability assessment tools (e.g., OWASP ZAP, Burp Suite) strengthen control assurance.  
-- Emphasis on **secure design and monitoring** closes the gap between technical defense and organizational assurance.
+- Emphasis on secure design and monitoring closes the gap between technical defense and organizational assurance.
 
 ---
 
@@ -95,8 +96,10 @@ For readability when exporting to PDF, add your organization or portfolio brandi
 
 ---
 
+<!--html-only-start-->
 <p align="center">
   <a href="{{ '/assets/docs/owasp-top10-overview.pdf' | relative_url }}" target="_blank" style="display:inline-block;padding:0.6rem 1rem;background:#268bd2;color:#fff;text-decoration:none;border-radius:6px;">
     Download PDF Report
   </a>
 </p>
+<!--html-only-end-->

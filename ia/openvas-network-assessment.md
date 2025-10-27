@@ -5,6 +5,7 @@ date: 2025-09-29
 description: "An applied information assurance report summarizing findings from a Greenbone OpenVAS vulnerability scan performed on a web server within a controlled network environment."
 permalink: /ia/openvas-network-assessment/
 comments: false
+<!-- pandoc: ignore-html -->
 ---
 
 *Prepared for Applied Information Assurance Projects*  
@@ -14,8 +15,8 @@ comments: false
 
 ## **1. Executive Summary**
 
-This report summarizes the results of a comprehensive **vulnerability assessment** performed on a web server using **Greenbone OpenVAS**.  
-The objective was to evaluate exposed services, identify potential security weaknesses, and provide mitigation recommendations aligned with **NIST CSF** and **OWASP** best practices.
+This report summarizes the results of a comprehensive vulnerability assessment performed on a web server using Greenbone OpenVAS.  
+The objective was to evaluate exposed services, identify potential security weaknesses, and provide mitigation recommendations aligned with NIST CSF and OWASP best practices.
 
 > **Objective:** To demonstrate how automated vulnerability scanning supports risk-based assurance, compliance alignment, and proactive defense for web-facing systems.
 
@@ -55,7 +56,7 @@ The scan covered HTTP/HTTPS, SSH, and supporting web application components.
 
 ## **4. Risk Analysis**
 
-Vulnerabilities were ranked using **CVSS v3.1** scoring and mapped to **NIST CSF functions** to support structured remediation.
+Vulnerabilities were ranked using CVSS v3.1 scoring and mapped to NIST CSF functions to support structured remediation.
 
 | **Risk Level** | **Action Priority** | **NIST CSF Function** |
 |:---------------:|:--------------------|:----------------------|
@@ -101,7 +102,7 @@ Vulnerabilities were ranked using **CVSS v3.1** scoring and mapped to **NIST CSF
 
 The OpenVAS scan of the internal web server revealed multiple high-risk vulnerabilities related to outdated software and insecure defaults.  
 Addressing these issues through timely patching, configuration hardening, and continuous scanning will significantly improve confidentiality, integrity, and availability.  
-This assessment demonstrates how automated vulnerability management directly supports **risk reduction** and **compliance validation** within an **information assurance framework**.
+This assessment demonstrates how automated vulnerability management directly supports risk reduction and compliance validation within an information assurance framework.
 
 ---
 
@@ -114,9 +115,11 @@ This assessment demonstrates how automated vulnerability management directly sup
 
 ---
 
+<!--html-only-start-->
 <p align="center">
   <a href="{{ '/assets/docs/openvas-network-assessment.pdf' | relative_url }}" target="_blank"
      style="display:inline-block;padding:0.6rem 1rem;background:#268bd2;color:#fff;text-decoration:none;border-radius:6px;">
      Download Full Report (PDF)
   </a>
 </p>
+<!--html-only-end-->

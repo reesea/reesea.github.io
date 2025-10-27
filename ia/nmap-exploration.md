@@ -4,6 +4,7 @@ title: "Nmap Exploration & Service Enumeration"
 date: 2025-10-25
 permalink: /ia/nmap-exploration/
 description: "Sanitized results and methodology for controlled Nmap host discovery and service enumeration in a lab environment."
+<!-- pandoc: ignore-html -->
 ---
 
 *Prepared for Applied Information Assurance Projects*  
@@ -121,4 +122,6 @@ nmap -p3000 --script http-title,http-headers -T3 -oN reports/juice-http-info 127
 - OWASP Juice Shop: https://owasp.org/www-project-juice-shop/  
 - NIST SP 800-115: Technical Guide to Information Security Testing and Assessment  
 
-<p align="center"> <a href="{{ '/assets/docs/nmap-exploration-results.pdf' | relative_url }}" target="_blank" style="display:inline-block;padding:0.6rem 1rem;background:#268bd2;color:#fff;text-decoration:none;border-radius:6px;">  Download Report (PDF) </a> </p> ```
+<!--html-only-start-->
+<p align="center"> <a href="{{ '/assets/docs/nmap-exploration-results.pdf' | relative_url }}" target="_blank" style="display:inline-block;padding:0.6rem 1rem;background:#268bd2;color:#fff;text-decoration:none;border-radius:6px;">  Download Report (PDF) </a> </p>
+<!--html-only-end-->

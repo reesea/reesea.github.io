@@ -21,10 +21,10 @@ IA research addressing core topics in cybersecurity and information assurance, c
 Practical lab and documentation work exploring vulnerability assessment, network reconnaissance, and secure systems analysis.  
 Projects demonstrate the responsible use of tools such as OpenVAS (Greenbone), Nmap, Metasploit, and OWASP testing frameworks, connecting technical findings to established NIST and ISO security standards.
 
-| Report | Summary | PDF |
-|:--------|:---------|:----|
-| **OWASP Top 10 Application Security Overview** | [View Online](/ia/owasp-top10/) | [Download]({{ '/assets/docs/owasp-top10-overview.pdf' | relative_url }}) |
-| **OpenVAS Network Vulnerability Assessment** | [View Online](/ia/openvas-network-assessment/) | [Download]({{ '/assets/docs/openvas-network-assessment.pdf' | relative_url }}) |
-| **Nmap Exploration & Service Enumeration** | [Read Summary](/ia/nmap-exploration/) | [Download]({{ '/assets/docs/nmap-exploration-results.pdf' | relative_url }}) |
+| Report | Summary |  PDF |
+|:--------|:---------|:---------|
+| **OWASP Top 10 Application Security Overview** | [View Online](/ia/owasp-top10/) | [Download](/assets/docs/owasp-top10-overview.pdf) |
+| **OpenVAS Network Vulnerability Assessment** | [View Online](/ia/openvas-network-assessment/) | [Download](assets/docs/openvas-network-assessment.pdf) |
+| **Nmap Exploration & Service Enumeration** | [View Online](/ia/nmap-exploration/) | [Download](/assets/docs/nmap-exploration.pdf) |
 
 *[View all Projects →](/projects/)*
