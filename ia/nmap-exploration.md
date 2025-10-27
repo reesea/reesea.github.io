@@ -123,5 +123,5 @@ nmap -p3000 --script http-title,http-headers -T3 -oN reports/juice-http-info 127
 - NIST SP 800-115: Technical Guide to Information Security Testing and Assessment  
 
 <!--html-only-start-->
-<p align="center"> <a href="{{ '/assets/docs/nmap-exploration-results.pdf' | relative_url }}" target="_blank" style="display:inline-block;padding:0.6rem 1rem;background:#268bd2;color:#fff;text-decoration:none;border-radius:6px;">  Download Report (PDF) </a> </p>
+<p align="center"> <a href="{{ '/assets/docs/nmap-exploration.pdf' | relative_url }}" target="_blank" style="display:inline-block;padding:0.6rem 1rem;background:#268bd2;color:#fff;text-decoration:none;border-radius:6px;">  Download Report (PDF) </a> </p>
 <!--html-only-end-->
