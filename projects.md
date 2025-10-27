@@ -49,7 +49,7 @@ Documented findings, created scan profiles, and explained the impact of timing t
 Used Metasploit in a sandboxed lab to demonstrate exploit frameworks, payload handling, and post-exploitation mitigation.  
 Focused on understanding exploit structure, privilege escalation prevention, and defensive countermeasures.  
 **Note:** All testing conducted within isolated lab VMs for research and educational purposes.  
-[Read Documentation](/ia/metasploit-demo.md)
+[Read Summary](/ia/metasploit-demo.md)
 
 ---
 

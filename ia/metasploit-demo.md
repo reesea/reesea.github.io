@@ -8,7 +8,6 @@ comments: false
 <!-- pandoc: ignore-html -->
 ---
 
-# **Metasploit Framework Demonstration (Controlled Environment)**
 *Prepared for Applied Information Assurance Projects*  
 *Date: October 2025*
 
