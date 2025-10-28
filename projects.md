@@ -65,4 +65,4 @@ Produced comparative tables of encryption methods, key exchange algorithms, and 
 **PGP and S/MIME Email Security Demo**  
 Implemented symmetric/asymmetric encryption for secure email exchange using GPG and Thunderbird.  
 Documented key generation, signing, and validation workflows, emphasizing usability and certificate trust models.  
-[View Documentation](/ia/pgp-smime.md)
+[Read Summary](/ia/pgp-smime.md)
