@@ -27,5 +27,6 @@ Projects demonstrate the responsible use of tools such as OpenVAS (Greenbone), N
 | **OpenVAS Network Vulnerability Assessment** | [View Online](/ia/openvas-network-assessment/) | [Download](assets/docs/openvas-network-assessment.pdf) |
 | **Nmap Exploration & Service Enumeration** | [View Online](/ia/nmap-exploration/) | [Download](/assets/docs/nmap-exploration.pdf) |
 | **Metasploit Framework Demonstration** | [View Online](/ia/metasploit-demo/) | [Download](/assets/docs/metasploit-demo.pdf) |
+| **PGP and S/MIME Email Security Demo** | [View Online](/ia/pgp-smime.md) | [Download](/assets/docs/pgp-smime.pdf) |
 
 *[View all Projects →](/projects/)*
