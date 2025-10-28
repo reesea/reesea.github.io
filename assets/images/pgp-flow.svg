@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" role="img" aria-label="PGP flow diagram">
+  <style>
+    .box { fill: #f8fafc; stroke: #334155; stroke-width:2; rx:8; }
+    .title { font: 600 16px/1.2 "Segoe UI", Roboto, Arial, sans-serif; fill:#0f172a; }
+    .label { font: 14px/1.2 "Segoe UI", Roboto, Arial, sans-serif; fill:#0f172a; }
+    .small { font: 12px/1.2 "Segoe UI", Roboto, Arial, sans-serif; fill:#334155; }
+    .arrow { stroke:#0f172a; stroke-width:2; fill:none; marker-end: url(#arrowhead); }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#0f172a" />
+    </marker>
+  </defs>
+
+  <!-- Client A box -->
+  <rect x="40" y="40" width="220" height="120" class="box" />
+  <text x="150" y="70" text-anchor="middle" class="title">Attacker/Client VM</text>
+  <text x="150" y="95" text-anchor="middle" class="label">user-a-lab.local</text>
+  <text x="150" y="115" text-anchor="middle" class="small">Thunderbird + GPG / S/MIME</text>
+
+  <!-- Compose steps box -->
+  <rect x="300" y="30" width="200" height="150" class="box" />
+  <text x="400" y="60" text-anchor="middle" class="title">Compose & Send</text>
+  <text x="400" y="90" text-anchor="middle" class="label">Sign (GPG/S-MIME)</text>
+  <text x="400" y="110" text-anchor="middle" class="label">Encrypt (recipient pubkey)</text>
+
+  <!-- SMTP / Transport -->
+  <rect x="540" y="40" width="180" height="120" class="box" />
+  <text x="630" y="70" text-anchor="middle" class="title">Transport</text>
+  <text x="630" y="95" text-anchor="middle" class="label">SMTP / IMAP / Local MTA</text>
+  <text x="630" y="115" text-anchor="middle" class="small">(optional test server)</text>
+
+  <!-- Recipient box -->
+  <rect x="760" y="40" width="200" height="120" class="box" />
+  <text x="860" y="70" text-anchor="middle" class="title">Recipient VM</text>
+  <text x="860" y="95" text-anchor="middle" class="label">user-b-lab.local</text>
+  <text x="860" y="115" text-anchor="middle" class="small">Thunderbird + S/MIME cert or GPG key</text>
+
+  <!-- Arrows -->
+  <path d="M260 100 L300 100" class="arrow"/>
+  <path d="M500 100 L540 100" class="arrow"/>
+  <path d="M720 100 L760 100" class="arrow"/>
+
+  <!-- Verification / Decrypt box below -->
+  <rect x="300" y="220" width="660" height="140" class="box" />
+  <text x="630" y="250" text-anchor="middle" class="title">On Receipt</text>
+  <text x="630" y="280" text-anchor="middle" class="label">Verify signature → "Verified"</text>
+  <text x="630" y="300" text-anchor="middle" class="label">Decrypt with private key → "Decrypted"</text>
+  <text x="630" y="320" text-anchor="middle" class="small">Show certificate details, signer identity, and trust chain</text>
+
+  <!-- Flow labels -->
+  <text x="360" y="42" class="small">1. Compose</text>
+  <text x="600" y="42" class="small">2. Transport</text>
+  <text x="820" y="42" class="small">3. Receive</text>
+
+  <!-- Decorative footer -->
+  <text x="20" y="410" class="small">Diagram: sanitized PGP/S-MIME flow for lab demo — replace text with real hostnames in lab notes</text>
+</svg>

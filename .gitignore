@@ -5,3 +5,29 @@ _site
 vendor
 .vs/
 *.ipch
+
+# Ignore private keys, certs, and PKCS#12 bundles
+*.key
+*.p12
+*.pem
+*.crt
+
+# Ignore temporary or generated output
+*.asc
+*.gpg
+*.bak
+*.log
+*.tmp
+
+# Ignore message files and decrypted outputs
+message.txt
+msg.asc
+
+# Ignore screenshots or previews generated locally (keep final sanitized one if needed)
+assets/images/commands-screenshot*.png
+assets/images/pgp-flow-raw*.png
+
+# Keep sanitized versions explicitly (optional unignore)
+!assets/snippets/commands.txt
+!assets/images/pgp-flow.svg
+!assets/images/commands-screenshot.png

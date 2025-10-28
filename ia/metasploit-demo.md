@@ -38,7 +38,8 @@ This project demonstrates high-level concepts of exploit frameworks using the Me
 - Monitoring (ELK / syslog / IDS) — captures network and host telemetry  
 - Isolated network: host-only / internal VirtualBox network
 
-![Metasploit topology](file:///D:/reesea.github.io/assets/images/metasploit-topology.png)
+![Metasploit topology](/assets/images/metasploit-topology.png)
+**Figure 1 — Metasploit Lab Topology (isolated)**
 
 ---
 

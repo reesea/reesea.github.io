@@ -1,0 +1,55 @@
+# Sanitized GPG & S/MIME commands for lab demo
+# Replace placeholder emails and paths before use. Do NOT commit private keys.
+
+## GPG (OpenPGP) - generate keypair (non-interactive example)
+# Note: You can run 'gpg --full-generate-key' for interactive key creation.
+gpg --batch --gen-key <<EOF
+    Key-Type: RSA
+    Key-Length: 3072
+    Name-Real: User A
+    Name-Comment: Lab Key
+    Name-Email: user-a@example.com
+    Expire-Date: 1y
+    %no-protection
+    %commit
+EOF
+
+# Export public key (share with recipient)
+gpg --output user-a-pub.asc --armor --export user-a@example.com
+
+# Import recipient public key (on sender)
+gpg --import user-b-pub.asc
+
+# Encrypt and sign a file (or message saved to file)
+gpg --encrypt --sign --armor --recipient user-b@example.com --output msg.asc message.txt
+
+# Decrypt and verify (on recipient)
+gpg --decrypt --output message.txt msg.asc
+
+# List keys
+gpg --list-keys
+gpg --list-secret-keys
+
+## S/MIME (OpenSSL) - create self-signed cert for Thunderbird testing (sanitized)
+# Generate private key
+openssl genpkey -algorithm RSA -pkeyopt rsa_keygen_bits:2048 -out user-a.key
+
+# Create a self-signed certificate (useful for local testing)
+openssl req -new -x509 -key user-a.key -out user-a.crt -days 365 -subj "/CN=User A/emailAddress=user-a@example.com"
+
+# Create a PKCS#12 bundle (for importing into Thunderbird)
+openssl pkcs12 -export -out user-a.p12 -inkey user-a.key -in user-a.crt -passout pass:changeit
+
+# On recipient: similar steps for user-b, then exchange .crt or .p12 files and import into Thunderbird
+# Example: verify a signed S/MIME message (SMIME verif)
+openssl smime -verify -in signed-email.eml -noverify -inform pem -text
+
+## Thunderbird / UI notes (sanitized)
+# - Import user-a.p12 into Thunderbird (Account Settings → End-to-End Encryption / Certificates)
+# - When composing: toggle Sign and/or Encrypt in the compose window
+# - To view verification: open the received message and check "Signed by" or lock icon details
+
+# Sanitation reminders:
+# - NEVER commit private keys (user-a.key, user-a.p12 passphrases)
+# - Replace 'user-a@example.com' with lab account addresses (user-a-lab.local can be used for hostnames)
+# - For production or realistic testing, use a proper CA-issued S/MIME cert rather than self-signed
