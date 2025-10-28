@@ -125,4 +125,4 @@ All email addresses and key data are placeholders. Do not commit private keys or
 - RFC 8551 (OpenPGP), RFC 5751 (S/MIME)
 - NIST guidance on cryptographic key management  
 
-<p align="center"> <a href="{{ '/assets/docs/pgp-smime-report.pdf' | relative_url }}" target="_blank" style="display:inline-block;padding:0.55rem 1rem;background:#268bd2;color:#fff;text-decoration:none;border-radius:6px;"> Download Report (PDF) </a> </p>
+<p align="center"> <a href="{{ '/assets/docs/pgp-smime.pdf' | relative_url }}" target="_blank" style="display:inline-block;padding:0.55rem 1rem;background:#268bd2;color:#fff;text-decoration:none;border-radius:6px;"> Download Report (PDF) </a> </p>
