@@ -8,7 +8,6 @@ comments: false
 <!-- pandoc: ignore-html -->
 ---
 
-# **PGP & S/MIME Email Security Demo**
 *Prepared for Applied Information Assurance Projects*  
 *Date: October 2025*
 
