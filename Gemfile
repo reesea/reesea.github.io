@@ -38,4 +38,5 @@ gem "csv"
 gem "base64"
 gem "faraday-retry"
 gem "webrick"
+gem "jekyll-seo-tag"
 
