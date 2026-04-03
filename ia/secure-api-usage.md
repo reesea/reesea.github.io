@@ -121,10 +121,12 @@ Authorization: Bearer {{token}}
 | Principle       | Application in API Security   |
 |-----------------|-------------------------------|
 | Confidentiality | TLS (HTTPS), token protection |
-| Integrity       | Signed requests, hashing      |
+| Integrity       | Signed requests, hashing, input validation      |
+| Availability    | Rate limiting, resilient infrastructure, monitoring |
 | Authentication  | API keys, JWT, OAuth          |
-| Authorization   | Scopes, role-based access     |
-| Accountability  | Logging, request tracing      |
+| Accountability  | Logging, request tracing, audit trails      |
+
+Authorization is also a critical API security control and is typically enforced through scoped tokens, role-based access, and least-privilege design.
 
 ## 10. Conclusion
 Secure API usage is not optional, it is a core component of system design. 
