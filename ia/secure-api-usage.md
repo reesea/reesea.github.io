@@ -18,7 +18,7 @@ This guide demonstrates how to securely interact with APIs using `curl` and Post
 
 As shown in **Figure 1**, secure API usage involves multiple layers including client request handling, authentication, authorization, and logging. Each component plays a role in enforcing confidentiality, integrity, and accountability.
 
-![Secure API Usage Flow](/assets/images/secure-api-flow.png)
+[![Secure API Usage Flow](/assets/images/secure-api-flow.png)](/assets/images/secure-api-flow.png)
 **Figure 1 — Secure API Usage Flow (isolated demonstration)**
 
 The diagram illustrates how requests flow from the client through authentication and API processing layers, with TLS protecting data in transit and logging supporting auditability.
@@ -90,7 +90,7 @@ multiple data breaches, often due to exposed tokens or lack of transport securit
 
 ## 6. Secure API Usage with Postman
 ### Use Environment Variables
-- Store tokens in variables (e.g., `{{token}}`)
+- Store tokens in variables (e.g., `{{ token }}`)
 - Avoid hardcoding credentials in requests
 
 ### Token Handling
@@ -117,6 +117,7 @@ Authorization: Bearer {{token}}
 - Monitor API usage logs
 
 ## 9. Mapping to CI4A Principles
+
 | Principle       | Application in API Security   |
 |-----------------|-------------------------------|
 | Confidentiality | TLS (HTTPS), token protection |
