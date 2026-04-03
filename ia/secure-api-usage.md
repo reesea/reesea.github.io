@@ -90,7 +90,7 @@ multiple data breaches, often due to exposed tokens or lack of transport securit
 
 ## 6. Secure API Usage with Postman
 ### Use Environment Variables
-- Store tokens in variables (e.g., <code>{{ token }}</code>)
+- Store tokens in variables (for example, a Postman environment variable named `token`)
 - Avoid hardcoding credentials in requests
 
 ### Token Handling
